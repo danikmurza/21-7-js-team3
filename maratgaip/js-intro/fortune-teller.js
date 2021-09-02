@@ -1,16 +1,6 @@
-const numChildren = 4;
-const partnerName = "Aiday";
-const location = "Seattle";
-const title = "Software Developer";
+var num = 2;
+var partner = "Moldir";
+var place = "Florida";
+var job = "Front end devoloper";
 
-console.log(
-  "You will be a " +
-    title +
-    " in " +
-    location +
-    " and married to " +
-    partnerName +
-    " with " +
-    numChildren +
-    " kids"
-);
+console.log ("You will be a " + job + " in " + place + ", and married to " + partner + " with " + num + " kids."); 
