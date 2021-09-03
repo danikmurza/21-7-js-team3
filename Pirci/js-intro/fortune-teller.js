@@ -5,14 +5,14 @@ Output your fortune to the screen like so: "You will be a X in Y, and married to
 
 let numPets = 2;
 let partnerName = "Ozlem";
-let location = "The Netherlands";
+let geoLocation = "The Netherlands";
 let job = "JavaScript Developer";
 
 let fortuneTeller =
   "You will be a " +
   job +
   " in " +
-  location +
+  geoLocation +
   ", and married to " +
   partnerName +
   ", will adopt " +
