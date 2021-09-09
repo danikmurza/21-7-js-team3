@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Light switch</title>
+  <script>
+    let turnOn = () => {
+      let onBulb = document.getElementById("on");
+      let off = document.getElementById("off");
+      onBulb.style.display = "block"
+      off.style.display = "none"
+
+    }
+    let turnOff = () => {
+      let onBulb = document.getElementById("on");
+      let off = document.getElementById("off");
+      onBulb.style.display = "none"
+      off.style.display = "block"
+    }
+  </script>
+</head>
+<body>
+<img id="on"
+     style="display: none;"
+     src="https://learn.seytech.co/assets/projects/js/dom-projects/light-switch/lighton.png"
+     alt="on"
+     onclick="turnOff()"
+
+/>
+<img id="off"
+     src="https://learn.seytech.co/assets/projects/js/dom-projects/light-switch/lightoff.png"
+     alt="off"
+     onclick="turnOn()"
+
+/>
+</body>
+</html>

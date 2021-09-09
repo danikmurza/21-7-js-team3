@@ -1,0 +1,39 @@
+body {
+    width: 800px;
+    margin: auto;
+    background-color: lightblue;
+}
+
+form {
+    margin: 50px;
+    height: 350px;
+    background-color: aliceblue;
+}
+
+.mb-3 {
+    padding: 30px;
+}
+
+button {
+    margin-bottom: 10px;
+}
+
+label {
+    text-align: center;
+}
+
+.text-center {
+    font-size: 26px;
+    color: black;
+}
+
+.blue {
+    color: lightskyblue;
+    font-weight: 700;
+}
+
+.i-b {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
