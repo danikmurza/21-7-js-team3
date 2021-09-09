@@ -7,7 +7,7 @@ Write a function that compares two numbers and returns the larger one. Be sure t
 
 function whichNumBigger(num1, num2) {
   if (typeof num1 !== "number" || typeof num2 !== "number") {
-    console.log("YOU SOULD ONLY TRY NUMBERS!");
+    console.log("YOU SHOULD ONLY TRY NUMBERS!");
   } else if (num1 === num2) {
     console.log("The numbers are equal!");
   } else if (num1 > num2) {
